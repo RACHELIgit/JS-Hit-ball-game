@@ -1,0 +1,65 @@
+body{
+background-image: url("../pic/רקע\ הוראות.png");
+background-size: cover;
+font-family: BokertovLight;
+
+}
+
+.nextoplay {
+    border: solid 1px #8d0784;
+    background-color:white;
+    padding: 30px 42px;
+    font-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 6.5%;
+  }
+  
+  .gamebtn:hover {
+    
+     opacity: 95%;
+     border: double ;
+     
+      
+      
+}
+  
+  .nextoplay {
+    font-family: BokertovLight;
+    font-size: medium;
+    border-radius: 10px;
+    border: solid rgb(252, 252, 252) 3px;
+    background-color:unset ;
+     color:  aliceblue;
+     margin-top: 37%;
+     margin-left:19%;
+    
+    
+    
+    }
+
+    .nextoplay:hover {
+background-color: rgb(185, 185, 185);
+
+/* opacity: 30%; */
+color: rgb(19, 9, 29);
+
+    }
+    /* button.open{
+      font-family: BokertovLight;
+    font-size: medium;
+    border-radius: 10px;
+    border: solid rgb(252, 252, 252) 3px;
+    background-color:unset ;
+     color:  aliceblue;
+     margin-top: 37%;
+     margin-left:19%;
+    }
+    button.open:hover{
+
+      background-color: rgb(185, 185, 185);
+
+/* opacity: 30%; */
+/* color: rgb(19, 9, 29);
+    } */
