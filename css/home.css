@@ -1,0 +1,42 @@
+body{
+    background-image: url("../pic/רגע\ דף\ הבית.png");
+    background-size: cover;
+    font-family: BokertovLight;
+    color: rgb(255, 254, 254);
+    
+}
+.kishur a {
+    color: white;
+    text-decoration:none;
+    margin-left:2.5%;
+ 
+}
+.kishur a:hover {
+   opacity: 80%;
+}
+
+.kishur{
+    font-size: large;
+    margin-left:75%;
+    margin-top:-65ch;
+}
+
+#homebtn {
+    background-color: aliceblue;
+    font-family: BokertovLight;
+    font-size: large;
+    color: rgb(33, 27, 43);
+    opacity: 90%;
+   border: solid 2px rgb(54, 56, 68);
+     border-radius: 25px;
+    margin-left: 80ch;
+    margin-top: 70ch;
+    width: 55ch;
+    height: 40px;
+}
+#homebtn:hover{
+    opacity: 70%; 
+    border: solid 3px rgb(71, 13, 47);
+
+}
+

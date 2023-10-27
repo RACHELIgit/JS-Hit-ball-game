@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="styleSheet" href="../css/home.css">
+   <style>
+    .my_class {
+display: grid;
+grid-template: "nav nav nav nav"
+    "article article article article " 
+    "footer footer footer footer";
+grid-template-rows: 160px 1fr 160px;
+grid-template-columns: 33.33% 33.33% 33.33%;
+grid-gap: 0px;
+height: 100%;
+}
+
+nav {
+grid-area: nav;
+flex-direction: column;
+  display: inline-block;
+background-image: url("../PIC/קישורים.jpg")
+
+}
+
+article {
+grid-area: article;
+
+background-size: 100%;
+
+height:800px;
+
+background-repeat:no-repeat;
+}
+
+footer {
+grid-area: footer;
+height: 100%;
+
+}
+</style>
+</head>
+<body background="../רחלי/‏‏תיקיה חדשה/רגע דף הבית.png"  style="background-size: cover;background-repeat: no-repeat;">
+
+<input type="button" id="homebtn" value=" מעבר  לכל  המשחקים ">
+  
+<div class="kishur">
+                <a href="">קצת עלינו</a>
+                <a href="">צור קשר</a>
+                <a href="">המשחקים שלנו</a>
+              
+          
+            </div>
+
+
+<script src="../codes/home.js"></script>
+</body>
+</html>

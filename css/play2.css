@@ -1,0 +1,176 @@
+body{
+    background-image: url("../pic/רקע\ משחק.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: BokertovLight;
+    color: rgb(255, 254, 254);
+    background-color: #0e071a;
+}
+
+.my_class {
+ 
+    display: grid;
+    grid-template: "nav article footer  header"
+                 "nav article footer  header"
+                 "nav article footer  header"
+        /* "article article article article " 
+        "footer footer footer footer"; */;
+    grid-template-rows: 160px 1fr 160px;
+    grid-template-columns: 30% 35% 20%  10%;
+    grid-gap: 0px;
+    height: 100%;
+}
+
+nav {
+ 
+    grid-area: nav;
+    flex-direction: row;
+    display: inline-block;
+    height: 300%;
+}
+
+article {
+   
+    grid-area: article;
+    height: 300%;
+}
+
+footer {
+    grid-area: footer;
+    height: 300%;
+    
+}
+header{
+    grid-area: header;
+    height: 300%;
+
+}
+#seccolor{
+margin-top: 90%;
+border-radius: 30px;
+margin-left:30%;
+width: 140%;
+
+}
+.colors{
+border-radius: 30px;
+padding: 25px 35px 15px 15px;
+margin-left :7%;
+margin-top: 4%;
+
+
+    
+}
+
+.colors:hover{
+
+border: solid 1px white;
+opacity: 90%;
+
+}
+.colors1{
+    background-color: unset;
+    border-radius: 20px;
+    padding: 28px 38px 18px 18px;
+    margin-left: 8%;
+    margin-top: 4px;
+    border: solid 1px rgb(255, 255, 255);
+  
+
+
+
+}
+
+#mygusses{
+    margin-top: 70%;
+  margin-left: 22%;
+}
+
+
+
+
+
+
+#continue{
+    font-family: BokertovLight;
+    font-size: medium;
+    border-radius: 10px;
+    border: solid rgb(252, 252, 252) 3px;
+    background-color:unset ;
+     color:  aliceblue;
+     margin-top: 37%;
+     margin-left:19%;
+     padding: 10px 50px 5px 10px;
+     margin-top: 15%;
+     margin-left: 48%;
+   
+    }
+    
+    #continue:hover{
+    
+        color:#e1005c;
+        border-color: #e1005c;
+        background-color: papayawhip;
+    }
+
+#mytries{
+    margin-top: 100%;
+    margin-left: 40%;
+}
+
+
+.colors2{
+
+background-color: unset;
+border-radius: 20px;
+padding: 15px 25px 5px 5px;
+
+}
+
+.btnbp{
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding:6px 25px 2px 2px;
+
+}
+#bp{
+margin-top:290px;
+margin-left: -11%;
+}
+
+#restart{
+    margin-left: 40%;
+    margin-top: 52%;
+    background-color: unset;
+    font-family: Andale Mono;
+    color: white;
+    font-size: 40px;
+    border: none;
+
+}
+
+#restart:hover{
+border-bottom: double;
+} 
+
+
+.w3-containerqqq{
+    margin-top: -110%;
+    direction: rtl;
+}
+
+
+button.w3-button w3-black{
+
+    font-family: BokertovLight;
+    font-size: medium;
+    border-radius: 10px;
+    border: solid rgb(252, 252, 252) 3px;
+    background-color:unset ;
+     color:  aliceblue;
+     /* margin-top: 37%;
+     margin-left:19%; */
+    
+    
+}
