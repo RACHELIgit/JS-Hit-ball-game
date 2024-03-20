@@ -1,0 +1,48 @@
+body{
+    background-image: url("../pic/gameover.jpg");
+    background-size: cover;
+}
+
+#new{
+    background-color: aliceblue;
+    font-family: BokertovLight;
+    font-size: large;
+    color: rgb(33, 27, 43);
+    opacity: 90%;
+   border: solid 2px rgb(54, 56, 68);
+     border-radius: 25px;
+    margin-left: 80ch;
+ 
+    width: 55ch;
+    height: 40px;
+
+}
+
+#new:hover{
+    opacity: 70%; 
+    border: solid 3px rgb(71, 13, 47);
+}
+#tohome{
+
+    background-color: aliceblue;
+    font-family: BokertovLight;
+    font-size: large;
+    color: rgb(33, 27, 43);
+    opacity: 90%;
+   border: solid 2px rgb(54, 56, 68);
+     border-radius: 25px;
+    margin-left: 80ch;
+   margin-bottom: 20px;
+    width: 55ch;
+    height: 40px;
+
+}
+
+#tohome:hover{
+    opacity: 70%; 
+    border: solid 3px rgb(71, 13, 47);
+
+}
+#div{
+    margin-top: 35%;
+}

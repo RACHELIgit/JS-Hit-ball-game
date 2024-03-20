@@ -1,0 +1,40 @@
+body{
+    background-image:url("../pic/רקע\ עמוד\ המשחקים\ שלנו\ copy.png") ;
+
+   
+    background-size: cover;
+
+}
+
+#ourgamevideo{
+    width: 185ch;
+    height: 50%;
+    opacity: 20%;
+}
+
+.gamebtn {
+    border: solid 1px #8d0784;
+    background-color: inherit;
+    padding: 30px 42px;
+    font-size: 80%;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 6.5%;
+  }
+  
+  .gamebtn:hover {
+    
+     opacity: 95%;
+     border: double ;
+     
+      
+      
+}
+  
+  .gamebtn {color: rgb(224, 220, 231);}
+
+  div{
+      margin-left: 42ch;
+      margin-top: 35ch;
+  }
