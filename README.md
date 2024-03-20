@@ -1,7 +1,9 @@
 # JS Hit Ball Game 
 
 ## Description
-Bull game hit with the computer, written in JavaScript. Just play with the computer.
+Bull game hit with the computer,
+ written in JavaScript.
+ Just play with the compute ; )
 
 ## Live Demo
 You can play the game live by visiting the following link:
